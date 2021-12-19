@@ -68,15 +68,6 @@ async function run() {
       })
 
       
-      //get single order
-      // app.get('/users/:id', async (req, res) => {
-      //     const id = req.params.id;
-      //     const query = {_id: ObjectId(id) };
-      //     const order = await userCollection.findOne(query)
-      //     res.send(order);
-      // })
-
-
 
       //update order status
       app.put('/users/:id', async (req, res) => {
