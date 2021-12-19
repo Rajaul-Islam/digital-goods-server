@@ -9,8 +9,7 @@ app.use(cors());
 app.use(express.json());
 const port = process.env.PORT || 5000;
 
-// MobileDokan
-// Q3EQYySxoV5z7lGI
+
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.nhm74.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 console.log(uri)
